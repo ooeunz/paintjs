@@ -24,7 +24,6 @@ const onMouseMove = (event) => {
   if (!painting) {
     ctx.beginPath();
     ctx.moveTo(x, y);
-
   } else {
     ctx.lineTo(x, y);
     ctx.stroke();
